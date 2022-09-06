@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*Farben in Variablen setzen*/
+:root {
+    --bg: #E5E5E5;
+    --font-color: black;
+    --font-acc: #6A1CC3;
+    --fill-color: #8849CF;
+    --font-acc-2: #FBFBFB;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("./assets/fonts/Montserrat-SemiBold.ttf");
+    weight: 600;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./assets/fonts/source-sans-pro-v21-latin-regular.ttf");
+    weight: 400;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./assets/fonts/SourceSansPro-SemiBold.ttf");
+    weight: 600;
+}
+
+html {
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    margin: auto;
+    max-width: 600px;
+}
+
+main {
+    margin: 1rem;
+}
+
+h1 {
+    font-family: "Monserrat";
+    font-size: 16px;
+    color: var(--font-acc);
+    text-transform: uppercase;
+}
+
+form {
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* special Styles */
+.header-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:var(--font-acc);
+    color:var(--font-acc-2);
+    font-family: "Monserrat";
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    padding-left: 1rem;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-bottom {
+    height: 20px;
+    fill: var(--font-acc);
+    margin-bottom: 3rem;;
+}
+
+.students-header {
+    margin-bottom: 0;
+    margin-top:0;
+}
