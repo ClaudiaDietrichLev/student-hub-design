@@ -1,8 +1,9 @@
-# Questions about this project
+# Student-Hub-Design
 
-[ ] Header-bottom: Wie ist das 2 Dreieck darunter gelöst???
+Author: Claudia Sollinger
+Design made for the bootcamp only with HTML and CSS
 
+Learning:
+SVG, styling Input
 
-Comments
-Links sind noch nicht auf die einzelnen Stati designt
-
+thanks to Ferdi, Nico, Sarah and Kadir ;-)

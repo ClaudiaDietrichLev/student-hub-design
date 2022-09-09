@@ -94,21 +94,21 @@ form {
 }
 
 .header-bottom {
-    position: relative;
-    height: 20px;
+    display: flex;
+    flex-direction: column;
+    max-height: 20px;
+  }
+  
+  .svg-arrow {
+    width: 100%;
+    background-color: var(--fill-color);
     fill: var(--font-acc);
-    z-index: 2;
-    margin-bottom: 3rem;
-}
-
-.header-bottom-2 {
-    position:relativ;
-    height: 20px;
+  }
+  
+  .svg-shadow {
+    width: 100%;
     fill: var(--fill-color);
-    margin-bottom: 3rem;
-    transform: translateY(calc(-20px - 3rem + 2px));
-    z-index: 1;
-}
+  }
 
 .students-header, 
 .students-subheader {
